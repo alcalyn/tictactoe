@@ -1,0 +1,22 @@
+{
+    "name":         "alcalyn/tictactoe",
+    "license":      "MIT",
+    "type":         "library",
+    "description":  "Another TicTacToe implementation in PHP.",
+    "homepage":     "https://github.com/alcalyn/tictactoe",
+    "authors": [
+        {
+            "name": "Julien Maulny",
+            "email": "doubjulien@hotmail.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alcalyn\\TicTacToe\\": "src"
+        }
+    }
+}
